@@ -3,8 +3,8 @@ def square_array(array)
   new_array = []
   
   square_array.each do |squares|
-  squares = squares * squares
-  new_array << squares
+  array = squares * squares
+  new_array << array
   end
   new_array
 end
